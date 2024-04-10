@@ -1,127 +1,52 @@
-@media (max-width:740px){
-    #body{
+@media (max-width: 500px) {
+    body, .container {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #body {
         background-image: url(./image/sunBg.13378c1945b2be657095.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 80vw;
+        width: 100vw; /* Adjusted to fill the viewport width */
     }
-    #myTable{
-        font-size: 10px;
+
+    [id^=myTable], #spa {
+        font-size: 10px; /* Kept the smaller font size for detailed weather info */
         color: white;
-        margin-top: 50px;
-        /* margin-left: 10px; */
-    
+        margin: 30px 5% 0; /* Adjusted to add margin to the sides */
     }
-    #myTable1{
-        font-size: 10px;
-        color: white;
-        margin-top: 30px;
-        /* margin-left: 10px; */
-        
-    }
-    #myTable2{
-        font-size: 10px;
-        color: white;
-        margin-top: 30px;
-        /* margin-left: 10px; */
-        
-    }
-    #myTable3{
-        font-size: 10px;
-        color: white;
-        margin-top: 30px;
-        /* margin-left: 10px; */
-        
-    }
-    #myTable4{
-        font-size: 10px;
-        color: white;
-        margin-top: 30px;
-        /* margin-left: 10px; */
-        
-    }
-    #myTable5{
-        font-size: 10px;
-        color: white;
-        margin-top: 30px;
-        /* margin-left: 10px; */
-    }
-    #myTable6{
-        font-size: 10px;
-        color: white;
-        margin-top: 30px;
-        /* margin-left: 10px; */
-       
-    }
-    #myTable7{
-        font-size: 10px;
-        color: white;
-        margin-top: 30px;
-        /* margin-left: 10px; */
-     
-    }
-    #spa{
-        position: absolute;
-        left: 5%;
+
+    .text1, .text2, .text3 {
+        font-size: 14px; /* Adjusted for readability on small screens */
         color: white;
         font-weight: bold;
-        font-size: 6px;
-        top: 100%;
-     }
-     .text1{
-         font-size: 20px;
-         color: white;
-         font-weight: bold;
-         margin-left: 30px;
-         margin-top: 100px;
-         display: none;
-     }
-     .text2{
-         font-size: 20px;
-         color: white;
-         font-weight: bold;
-         display: none;
-     }
-     .text3{
-         font-size: 10vw;
-         margin-top: 300px;
-         color: white;
-         font-weight: bold;
-         display: none;
-     }
-     
-    #pan{
-        margin-left: 50px;
+        margin: 100px 5% 0; /* Adjusted to manage spacing and visibility */
+        display: block; /* Assuming you may want these visible, adjust as needed */
     }
-    #fan{
-        margin-left: 50px;
-    }
-    #fan1{
-        margin-left: 50px;
-    }
-    #fan2{
-        margin-left: 50px;
-    }
-    #fan3{
-        margin-left: 50px;
-    }
-    #fan4{
-        margin-left: 50px;
-    }
-    #fan5{
-        margin-left: 50px;
-    }
-    #fan6{
-        margin-left: 50px;
-    }
-    #ca{
-        background-color:rgb(90, 103, 122);
-        height: 100vh;
+
+    #ca {
+        background-color: rgb(90, 103, 122);
         opacity: 0.7;
-        width: 70vw;
-        
+        width: 100%; /* Adjusted to fill the container width */
+        height: auto; /* Adjusted to fit content */
+        margin: 0; /* Reset margins */
+        padding: 20px 0; /* Add padding for spacing inside the container */
     }
-    #aa{
-        width: 80px;
+
+    #aa {
+        width: auto; /* Allows the button to size according to its content */
+        padding: 10px; /* Adds padding for a larger, more accessible touch target */
+        margin-top: 20px; /* Adds space above the button */
+    }
+
+    #spa {
+        font-size: 8px; /* Adjusted for visibility */
+        position: static; /* Changed to static for flow layout, adjust as needed */
+        margin-top: 20px; /* Space from the content above */
+        display: block; /* Ensure it's displayed */
+        width: 100%; /* Ensures full width */
+        text-align: center; /* Centers the copyright text */
     }
 }
