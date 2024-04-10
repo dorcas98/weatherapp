@@ -9,7 +9,7 @@
         background-image: url(./image/sunBg.13378c1945b2be657095.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100vw; /* Adjusted to fill the viewport width */
+        width: 100vw; 
     }
 
     [id^=myTable], #spa {
@@ -19,34 +19,34 @@
     }
 
     .text1, .text2, .text3 {
-        font-size: 14px; /* Adjusted for readability on small screens */
+        font-size: 14px; 
         color: white;
         font-weight: bold;
-        margin: 100px 5% 0; /* Adjusted to manage spacing and visibility */
-        display: block; /* Assuming you may want these visible, adjust as needed */
+        margin: 100px 5% 0; 
+        display: block; 
     }
 
     #ca {
         background-color: rgb(90, 103, 122);
         opacity: 0.7;
-        width: 100%; /* Adjusted to fill the container width */
-        height: auto; /* Adjusted to fit content */
-        margin: 0; /* Reset margins */
-        padding: 20px 0; /* Add padding for spacing inside the container */
+        width: 100%;
+        height: auto; 
+        margin: 0; 
+        padding: 20px 0; 
     }
 
     #aa {
-        width: auto; /* Allows the button to size according to its content */
-        padding: 10px; /* Adds padding for a larger, more accessible touch target */
-        margin-top: 20px; /* Adds space above the button */
+        width: auto;
+        padding: 10px; 
+        margin-top: 20px; 
     }
 
     #spa {
-        font-size: 8px; /* Adjusted for visibility */
-        position: static; /* Changed to static for flow layout, adjust as needed */
-        margin-top: 20px; /* Space from the content above */
-        display: block; /* Ensure it's displayed */
-        width: 100%; /* Ensures full width */
-        text-align: center; /* Centers the copyright text */
+        font-size: 8px;
+        position: static; 
+        margin-top: 20px;
+        display: block; 
+        width: 100%; 
+        text-align: center; 
     }
 }
