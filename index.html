@@ -300,14 +300,7 @@
         `
         
         }
-        music.addEventListener("canplay", setSongDuration);
-        playBtn.addEventListener("click", () => (isPlaying ? pauseSong() : playSong()));
-        prevBtn.addEventListener("click", prevSong);
-        nextBtn.addEventListener("click", nextSong);
-        music.addEventListener("timeupdate", updateProgressBar);
-        music.addEventListener("ended", nextSong);
-        progressContainer.addEventListener("click", setProgressBar);
-
+       
         setTimeout(() => {
             const marqueeContainer = document.getElementById('marquee-container');
             if (marqueeContainer) {
